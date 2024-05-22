@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6с</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Стандартный сайт</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img style="display: inline-block;width: 34px;height: 29px;" src="./images/akes_grey.png" alt="">
+                <h1 style="display: inline-block;" >6C</h1>
+                <nav class="zagolovok">
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">О школе</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <main>
+            <div class="container">
+                <section id="home">
+                    <h2>Добро пожаловать в наш класс!</h2>
+                    <p>Тут много интересного</p>
+                </section>
+    
+                <section id="about">
+                    <h2>О нас</h2>
+                    <p>В нашем классе 27 учеников и всего лишь 3 отличника</p>
+                    <img src="./images/Изображение WhatsApp 2024-05-22 в 23.05.47_2927b8e3.jpg" alt="">
+                    <img src="./images/Изображение WhatsApp 2024-05-22 в 23.05.50_e38d3ac7.jpg" alt="">
+                    <img src="./images/Изображение WhatsApp 2024-05-22 в 23.05.52_62441bc2.jpg" alt="">
+                </section>
+    
+                <section id="services">
+                    <h2>Наши Школа:Ага хана</h2><img  style=" width: 100px;height: 100px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAADMCAMAAABp5J6CAAAAw1BMVEUAZgD/u7u7t7e339/cAYwAAXgD4+PgAXAD8/PwAYADy8vL09PQAYgAAZwAAWwA+gj6FrYWwx7BChEIldyShv5/t9euAp3/U4NW8072XtZVUjVVHiEiHq4fN387j7uTd5NzA0cGPtZD3/e0WXCp5iWfao5AubbUzRcP7S8gX/++A91BADXhaQYG8RLdHfZCWT86xkvDvTxC6fybbqizwf0f1Q3sHY9xdTWKHzdnxd1Vg8o8FTJSrvi3D9mwL6Ksm6LIEH9+7SqIi+POJnbx2pqzkCopq1L8XMpaBk5IFqCeFZcNbqo9SkAt1tG1L+PqCuAQILKxngLJV41AuLoAAAB+SURBVA5aUc0ZCrVf/B+krKVxa9n5xQcHM2Eq9EEpydWHZqifTlnVJTjGPfh4HORt8CVN+AzKqhAJHGZtOCKlVjMb9n9JWcsimfaN8GJKtvzbP8LcPgCcietB82v/MeBFUaZ12PodfBnw7NPlxS3QqsVgR6LXSDSLYgltTvwf8in41B5D+MYAAAAASUVORK5CYII=" alt="">
+                    <h1>Это школа за год до 2024</h1>
+                    <img src="./images/md-1842.jpg" alt="">
+                    <h1>Это школа в момент 2024</h1>
+                    <img style="width: 800px;height: 534px; " src="./images/images.jpeg" alt="">
+                    <h2>Наша Икрамова Жипара Мамаджановна</h2>
+                    <img class="img-school" src="./images/Jypara_Ikramova_Mamadzhanovna.jpg" alt="">
+                    <h2>Бывший директор Осмоналиев Мирлан Абсатарович</h2>
+                    <img class="img-school" src="./images/Mirlan_Osmonaliev_Absatarovich.jpg" alt="">
+                    <h2>Директор Дерябкина Наталья Анатольевна</h2>
+                    <img class="img-school" src="./images/Natalya_Deryabkina_Anatolievna.jpg" alt="">
+                    <p>г.Ош, ул. Курманжан Датки, 93</p>
+                </section>
+    
+                <section id="contact">
+                    <h2>Контакты</h2>
+                    <p><a href="+996 703 640 861"></a></p>
+                    <p><a href="+996 700 900 456"></a></p>
+                    <p>Информация для связи с нами.</p>
+                </section>
+            </div>
+        </main>
+    
+        <footer>
+            <div class="container">
+                <p>&copy;Разработчик: Мараш-Оглы Эмир</p>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
+
+    <script src="./main.js"></script>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        </script>
+        
+</body>
+
+</html>
